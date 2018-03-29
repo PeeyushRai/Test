@@ -127,6 +127,7 @@ public class Test {
 		System.out.println("INGR:" + foodAttribs.get("nf_ingredient_statement"));
 		JSONObject fPhoto = (JSONObject) foodAttribs.get("photo");
 		System.out.println("Photo URL:" + fPhoto.get("thumb"));
+		System.out.println("Photo URL:" + fPhoto.get("highres"));
 		
 		// Adding a comment
 	}
